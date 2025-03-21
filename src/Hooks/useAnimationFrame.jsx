@@ -5,7 +5,7 @@ export const useAnimationFrame = (run, callback) => {
   const previousTimeRef = useRef();
 
   const animate = (time) => {
-    if (previousTimeRef.current != undefined) {
+    if (previousTimeRef.current !== undefined) {
       const deltaTime = time - previousTimeRef.current;
       callback(deltaTime);
     }
