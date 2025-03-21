@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    font-family: 'Nunito Sans';
+    color: #0b1a3f;
+}
+.text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 48px;
+    font-size: 18px;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 0 11px 0;
+}
